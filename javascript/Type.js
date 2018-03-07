@@ -3,7 +3,7 @@
 class Type {
     constructor() {
         // auto 是单字符符号的类型
-        // this.auto = 'auto' // 0
+        this.auto = 'auto' // 0
         // this.colon = 'colon' // 1
         // this.comma = 'comma' // 2
         // this.braceLeft = 'braceLeft' // 3
@@ -18,6 +18,7 @@ class Type {
         this.bool = 'bool'
         this.comment = 'comment'
         this.condition = 'condition'
+        this.id = 'identity'
     }
 }
 
