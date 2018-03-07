@@ -150,9 +150,7 @@ if(require.main === module) {
     const result5 = apply(ts5)
     log('result 5', result5)
     ensure(result5 === 3, 'apply test 5')
-
-
-
+    
     const code6 = `
             [if yes
                 [log "成功"]
